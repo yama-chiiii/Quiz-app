@@ -1,13 +1,3 @@
-const IndexPage = () => {
-    return (
-        <div>
-            <div className="text1">Let's Play Quiz.</div>
-            <div className="text2">
-                チュートリアルとして作成したクイズアプリです
-            </div>
-            <button className="startButton">クイズを始める</button>
-        </div>
-    );
-};
+import { RootPage } from "./../../ui/pages/Root";
 
-export default IndexPage;
+export default RootPage;

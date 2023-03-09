@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(36, 19, 108);
+    background-color: #252c4b;
 }
 
 .text1 {
@@ -42,6 +42,7 @@ body {
 .startButton:hover {
     background-color: hsl(191, 81%, 32%);
 }
+@import url("./pallet.css");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
